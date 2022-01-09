@@ -1,0 +1,31 @@
+.navbar{
+    position: absolute;
+    background: transparent !important;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-link{
+    color: purple !important;
+}
+
+.nav-link:hover{
+    color: orange !important;
+}
+
+.search-bar{
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    width: 100%;
+}
+.login{
+    color: red !important;
+    /* border: 2px solid white; */
+    /* border-radius: 1rem 1rem !important; */
+}
+.login:hover{
+    color: white;
+    background: white;
+}
